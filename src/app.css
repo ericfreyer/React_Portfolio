@@ -1,0 +1,180 @@
+#farmPic{
+    width: 25%;
+    height: 25%;
+
+}
+
+#examPic{
+    width: 25%;
+    height: 25%;
+}
+
+#weatherPic{
+    width: 25%;
+    height: 25%;
+}
+
+#farmDiv{
+text-align: center;
+width: 20%;
+
+}
+
+#quizDiv{
+    text-align: center;
+    width: 20%;
+}
+
+#weatherDiv{
+    text-align: center;
+    width: 20%
+}
+
+#mainDiv{
+margin: auto;
+}
+
+#footer{
+   text-align: center;
+}
+
+.codeLink{
+    color: black;
+    text-decoration: none;
+}
+
+.codeLink:hover{
+    color: inherit;
+}
+
+#header{
+background-color: rgba(0, 0, 0, 0.041);
+margin: 25px;
+height: 50px;
+text-align: center;
+background-image: linear-gradient(to bottom right, rgb(235, 231, 226), rgb(230, 212, 201));
+width: auto;
+}
+
+#headerTwo{
+text-align: center;
+text-shadow: 2px 1px #b4919167;
+}
+
+
+
+html{
+    
+    min-height:100%;
+}
+
+.card-body{
+    background-color: rgba(242, 244, 247, 0.808);
+}
+
+.btn{
+    padding: 1px
+}
+
+#codingProjects{
+    padding-right: 12%;
+}
+
+#audioScreenshot{
+    width: 100%;
+    height:100%;
+}
+
+#farmwiseScreenshot{
+    width: 100%;
+    height:100%;
+}
+
+#weatherScreenshot{
+    width: 100%;
+    height:100%;
+}
+
+#rightDiv {
+    float: right;
+}
+
+.fadeIn {
+    opacity: 0;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
+    font: inherit;
+}
+
+#fadeDiv {
+    background-color: rgba(70, 71, 66, 0.801);
+    animation: colorTransition 4s;
+    text-align: center;
+    position: fixed;
+    padding-top: 18%;
+    top: 0; right: 0; bottom: 0; left: 0;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    color: transparent;
+    font-size: 10vw;
+    font-family: "Source Sans Pro", sans-serif;
+    animation: reveal 1000ms ease-in-out forwards 1000ms, glow 2500ms linear infinite 2000ms;
+  
+    
+}
+
+@keyframes reveal {
+    80%{
+      letter-spacing: 8px;
+    }
+    100% {
+      background-size: 300% 300%;
+    }
+}
+
+@keyframes glow {
+    40% {
+      text-shadow: 0 0 8px rgb(0, 0, 0);
+    }
+}
+
+@keyframes colorTransition {
+    from { background-color: rgb(196, 6, 221); }
+    to { background-color: rgb(170, 218, 38) }
+    
+}
+
+#middleDiv {
+    opacity: 1;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
+    font: inherit;
+    box-shadow: 10px 10px 5px -5px gray;
+}
+
+#portfolioBody {
+    -webkit-transition: background 1.5s linear;
+    -moz-transition: background 1.5s linear;
+    -o-transition: background 1.5s linear;
+    -ms-transition: background 1.5s linear;
+    transition: background 1.5s linear;
+         -o-animation: fadeIt 3s ease-in-out; 
+            animation: fadeIt 3s ease-in-out; 
+    
+}
+
+@keyframes fadeIt { 
+    0% { opacity: 0; background-color: rgba(164, 221, 6, 0.801); } 
+    100% { opacity: 1; } 
+
+} 
+
+.navbar {
+    box-shadow: 0 10px 5px -5px gray;
+}

@@ -1,7 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavTabs from "./components/NavTabs";
-import './App.css';
+import Home from "./pages/Home/home";
+import Portfolio from "./pages/Portfolio/portfolio";
+import Contact from "./pages/Contact/contact";
+import './app.css'
 
 function App() {
   return (
@@ -13,6 +16,7 @@ function App() {
         <Route exact path="/contact" component={Contact} />
       </div>
     </Router>
+    
   );
 }
 

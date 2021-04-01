@@ -7,8 +7,7 @@ function NavTabs() {
   return (
     <nav
       className="navbar navbar-expand-sm navbar-light"
-      style="background-color: #464646"
-    >
+      style={{ backgroundColor: "#464646"}}>
       <li className="navbar-brand text-white-50">
         <Link to="/" className={location.pathname === "/"}>
           Eric Freyer
