@@ -4,7 +4,7 @@ import NavTabs from "./components/NavTabs";
 import Home from "./pages/Home/home";
 import Portfolio from "./pages/Portfolio/portfolio";
 import Contact from "./pages/Contact/contact";
-import './app.css'
+import './styles.css'
 
 function App() {
   return (

@@ -4,8 +4,9 @@ import IMG_3760 from "./images/IMG_3760.JPG";
 import GitHub from "./images/GitHub-Mark.png";
 import gmail from "./images/gmail.webp";
 import Linkedin from "./images/Linkedin_symbol_transparent.png";
+import "../../../src/styles.css";
 
-function Home(props) {
+function Home() {
   return (
     <div>
       <div className="fadeIn fadeDiv">
@@ -111,17 +112,17 @@ function Home(props) {
 
 $(document).ready(function () {
   $(".fadeIn").hide();
-  $(".portfolio").click(function (e) {
+  $("#portfolio").click(function (e) {
     $(".fadeIn").show();
     if ($(".fadeIn").css("opacity") === 0) {
       $(".fadeIn").css("opacity", 1);
     } else {
       $(".fadeIn").css("opacity", 0);
     }
-    if ($(".middleDiv").css("opacity") === 1) {
-      $(".middleDiv").css("opacity", 0);
+    if ($("#middleDiv").css("opacity") === 1) {
+      $("#middleDiv").css("opacity", 0);
     } else {
-      $(".middleDiv").css("opacity", 1);
+      $("middleDiv").css("opacity", 1);
     }
     e.preventDefault();
     var linkUrl = $(this).attr("href");
