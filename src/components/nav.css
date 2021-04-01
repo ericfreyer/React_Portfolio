@@ -1,40 +1,40 @@
-.farmPic{
+#farmPic{
     width: 25%;
     height: 25%;
 
 }
 
-.examPic{
+#examPic{
     width: 25%;
     height: 25%;
 }
 
-.weatherPic{
+#weatherPic{
     width: 25%;
     height: 25%;
 }
 
-.farmDiv{
+#farmDiv{
 text-align: center;
 width: 20%;
 
 }
 
-.quizDiv{
+#quizDiv{
     text-align: center;
     width: 20%;
 }
 
-.weatherDiv{
+#weatherDiv{
     text-align: center;
     width: 20%
 }
 
-.mainDiv{
+#mainDiv{
 margin: auto;
 }
 
-.footer{
+#footer{
    text-align: center;
 }
 
@@ -47,7 +47,7 @@ margin: auto;
     color: inherit;
 }
 
-.header{
+#header{
 background-color: rgba(0, 0, 0, 0.041);
 margin: 25px;
 height: 50px;
@@ -56,7 +56,7 @@ background-image: linear-gradient(to bottom right, rgb(235, 231, 226), rgb(230, 
 width: auto;
 }
 
-.headerTwo{
+#headerTwo{
 text-align: center;
 text-shadow: 2px 1px #b4919167;
 }
@@ -76,26 +76,26 @@ html{
     padding: 1px
 }
 
-.codingProjects{
+#codingProjects{
     padding-right: 12%;
 }
 
-.audioScreenshot{
+#audioScreenshot{
     width: 100%;
     height:100%;
 }
 
-.farmwiseScreenshot{
+#farmwiseScreenshot{
     width: 100%;
     height:100%;
 }
 
-.weatherScreenshot{
+#weatherScreenshot{
     width: 100%;
     height:100%;
 }
 
-.rightDiv {
+#rightDiv {
     float: right;
 }
 
@@ -109,7 +109,7 @@ html{
     font: inherit;
 }
 
-.fadeDiv {
+#fadeDiv {
     background-color: rgba(70, 71, 66, 0.801);
     animation: colorTransition 4s;
     text-align: center;
@@ -147,7 +147,7 @@ html{
     
 }
 
-.middleDiv {
+#middleDiv {
     opacity: 1;
     -webkit-transition: all 2s ease-in-out;
     -moz-transition: all 2s ease-in-out;
@@ -158,7 +158,7 @@ html{
     box-shadow: 10px 10px 5px -5px gray;
 }
 
-.portfolioBody {
+#portfolioBody {
     -webkit-transition: background 1.5s linear;
     -moz-transition: background 1.5s linear;
     -o-transition: background 1.5s linear;
