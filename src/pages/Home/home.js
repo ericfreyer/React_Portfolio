@@ -5,10 +5,12 @@ import GitHub from "./images/GitHub-Mark.png";
 import gmail from "./images/gmail.webp";
 import Linkedin from "./images/Linkedin_symbol_transparent.png";
 import "../../../src/styles.css";
+import Fade from '../../components/fade';
 
 function Home() {
   return (
-    <div>
+    
+    <div><Fade />
       <div className="fadeIn fadeDiv">
         <h1>Okay...Here we go!</h1>
       </div>
@@ -110,30 +112,6 @@ function Home() {
   );
 }
 
-$(document).ready(function () {
-  $(".fadeIn").hide();
-  $("#portfolio").click(function (e) {
-    $(".fadeIn").show();
-    if ($(".fadeIn").css("opacity") === 0) {
-      $(".fadeIn").css("opacity", 1);
-    } else {
-      $(".fadeIn").css("opacity", 0);
-    }
-    if ($("#middleDiv").css("opacity") === 1) {
-      $("#middleDiv").css("opacity", 0);
-    } else {
-      $("middleDiv").css("opacity", 1);
-    }
-    e.preventDefault();
-    var linkUrl = $(this).attr("href");
-    setTimeout(
-      function (url) {
-        window.location = url;
-      },
-      8000,
-      linkUrl
-    );
-  });
-});
+
 
 export default Home;
