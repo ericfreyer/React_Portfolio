@@ -10,7 +10,7 @@ import Footer from './components/footer'
 
 function App() {
   return (
-    <Router basename={`/${process.env.PUBLIC_URL}`}>
+    <Router basename={process.env.PUBLIC_URL}>
       <div style={{ backgroundImage: `url(${background}`, backgroundRepeat: 'repeat' }}>
       
         <div>
