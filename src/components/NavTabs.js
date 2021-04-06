@@ -21,7 +21,7 @@ function NavTabs() {
         <ul className="navbar-nav mr-auto">
           <li className="nav-item active">
             <Link to="/"
-              className="nav-link text-white-50" {...location.pathname === "/"}
+              className="nav-link text-white-50"
             >
               Home
             </Link>
