@@ -1,5 +1,5 @@
 import React from "react";
-import { Switch, Router, Route} from "react-router-dom";
+import { BrowserRouter, Router, } from "react-router-dom";
 import NavTabs from "./components/NavTabs";
 import Home from "./pages/Home/home";
 import Portfolio from "./pages/Portfolio/portfolio";
@@ -14,7 +14,7 @@ function App() {
       <Router basename={`/${process.env.PUBLIC_URL}`}>
         <div>
           <NavTabs />
-        
+
           <Route exact path="" component={Home} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
