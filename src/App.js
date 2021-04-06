@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 import NavTabs from "./components/NavTabs";
 import Home from "./pages/Home/home";
 import Portfolio from "./pages/Portfolio/portfolio";
@@ -12,17 +12,14 @@ function App() {
   return (
     <div style={{ backgroundImage: `url(${background}`, backgroundRepeat: 'repeat' }}>
       <Router basename={`/${process.env.PUBLIC_URL}`}>
-      <Route render = {({ location }) => (
-
-             <Switch location = { location }>
+        <div>
           <NavTabs />
 
           <Route exact path="" component={Home} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
-</Switch>
 
-      )} />   
+        </div>
       </Router>
       <Footer />
     </div>
