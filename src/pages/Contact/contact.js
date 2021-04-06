@@ -41,6 +41,10 @@ function Contact () {
         </ul>
         </div>
     </div>
+    <h1 style={{opacity: '0'}}>yo</h1>
+      <h1 style={{opacity: '0'}}>yo</h1>
+      <h1 style={{opacity: '0'}}>yo</h1>
+      <h1 style={{opacity: '0'}}>yo</h1>
 </div>
     )
 }
