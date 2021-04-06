@@ -5,8 +5,8 @@ import Home from "./pages/Home/home";
 import Portfolio from "./pages/Portfolio/portfolio";
 import Contact from "./pages/Contact/contact";
 import "./styles.css";
-import background from "../src/pages/Home/images/background.jpg";
-import Footer from '../src/components/footer'
+import background from "./pages/Home/images/background.jpg";
+import Footer from './components/footer'
 
 function App() {
   return (

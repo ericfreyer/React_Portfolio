@@ -144,7 +144,9 @@ function Portfolio () {
                     <a target="_blank" rel="noopener noreferrer" href="https://www.stjohndivine.org/art/art-exhibitions/">
                         <img src={Aljoscha} width="100%" height="100%" class="rounded float-left img-fluid img-thumbnail" alt="The Miraculous Draught" style={{height: "auto"}} /></a></div>
             </div>
-        </div>        
+        </div>
+        <h1>yo</h1>
+        <hi>yo</hi>        
     </div>
 
 
