@@ -12,32 +12,32 @@ function NavTabs() {
       className="navbar navbar-expand-sm navbar-light"
       style={{ backgroundColor: "#464646"}}>
       <li className="navbar-brand text-white-50">
-        <a href="/" className="nav-link text-white-50" {...location.pathname === "/"}>
+        <Link to="/" className="nav-link text-white-50" {...location.pathname === "/"}>
           Eric Freyer
-        </a>
+        </Link>
       </li>
       <div className="collapse navbar-collapse navbarNav">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item active">
-            <a href="/"
+            <Link to="/"
               className="nav-link text-white-50" {...location.pathname === "/"}
             >
               Home
-            </a>
+            </Link>
           </li>
           <li className="nav-item active">
-            <a href="/portfolio"
+            <Link to="/portfolio"
               className="nav-link text-white-50 portfolio" {...location.pathname === "/portfolio"}
             >
               Portfolio
-            </a>
+            </Link>
           </li>
           <li className="nav-item active">
-            <a href="/contact"
+            <Link to="/contact"
               className="nav-link text-white-50" {...location.pathname === "/contact"}
             >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
