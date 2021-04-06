@@ -19,6 +19,7 @@ function App() {
           <Route exact path="/contact" component={Contact} />
         </div>
       </Router>
+      <Home />
       <Footer />
     </div>
   );
