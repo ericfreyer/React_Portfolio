@@ -6,7 +6,8 @@ import Github from '../Home/images/GitHub-Mark.png';
 
 function Contact () {
     return(
-        <div class="container sm border border-dark w-50 p-3" style={{marginTop: "5%", backgroundColor:  "rgba(211, 197, 252, 0.116)"}}>
+      <div>
+      <div class="container sm border border-dark w-50 p-3" style={{marginTop: "5%", backgroundColor:  "rgba(211, 197, 252, 0.116)"}}>
     <h1 style={{textAlign: "center"}}>Contact</h1>
     <div class="row">
         <div class="col-sm-6 h-100 d-inline-block">
@@ -41,11 +42,12 @@ function Contact () {
         </ul>
         </div>
     </div>
-    <h1 style={{opacity: '0'}}>yo</h1>
-      <h1 style={{opacity: '0'}}>yo</h1>
-      <h1 style={{opacity: '0'}}>yo</h1>
-      <h1 style={{opacity: '0'}}>yo</h1>
 </div>
+<h1 style={{opacity: '0'}}>yo</h1>
+      <h1 style={{opacity: '0'}}>yo</h1>
+      <h1 style={{opacity: '0'}}>yo</h1>
+      <h1 style={{opacity: '0'}}>yo</h1>
+      </div>
     )
 }
 
