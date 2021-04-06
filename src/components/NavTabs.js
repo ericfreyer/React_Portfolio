@@ -27,14 +27,14 @@ function NavTabs() {
             </Link>
           </li>
           <li className="nav-item active">
-            <Link to="/portfolio"
+            <Link to="/Portfolio"
               className="nav-link text-white-50 portfolio" {...location.pathname === "/Portfolio"}
             >
               Portfolio
             </Link>
           </li>
           <li className="nav-item active">
-            <Link to="/contact"
+            <Link to="/Contact"
               className="nav-link text-white-50" {...location.pathname === "/Contact"}
             >
               Contact
