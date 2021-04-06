@@ -41,6 +41,7 @@ margin: auto;
 .codeLink{
     color: black;
     text-decoration: none;
+    padding-right: 1px;
 }
 
 .codeLink:hover{
