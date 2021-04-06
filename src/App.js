@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router } from 'react-router-dom'
 import NavTabs from "./components/NavTabs";
 import Home from "./pages/Home/home";
 import Portfolio from "./pages/Portfolio/portfolio";
@@ -11,7 +11,7 @@ import Footer from './components/footer'
 function App() {
   return (
     <div style={{ backgroundImage: `url(${background}`, backgroundRepeat: 'repeat' }}>
-      <Router>
+      <Router >
         <div>
           <NavTabs />
           <Route exact path="/" component={Home} />
@@ -19,7 +19,6 @@ function App() {
           <Route exact path="/contact" component={Contact} />
         </div>
       </Router>
-      <Home />
       <Footer />
     </div>
   );
