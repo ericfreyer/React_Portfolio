@@ -35,7 +35,7 @@ function NavTabs() {
           </li>
           <li className="nav-item active">
             <Link to="/Contact"
-              className="nav-link text-white-50" {...location.pathname === "/Contact"}
+              className="nav-link text-white-50"
             >
               Contact
             </Link>
