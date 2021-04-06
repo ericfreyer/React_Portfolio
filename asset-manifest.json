@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/ericfreyer.github.io/React_Portfolio/static/css/main.93d47f43.chunk.css",
+    "main.js": "/ericfreyer.github.io/React_Portfolio/static/js/main.f2e91925.chunk.js",
+    "main.js.map": "/ericfreyer.github.io/React_Portfolio/static/js/main.f2e91925.chunk.js.map",
+    "runtime-main.js": "/ericfreyer.github.io/React_Portfolio/static/js/runtime-main.1a4b547f.js",
+    "runtime-main.js.map": "/ericfreyer.github.io/React_Portfolio/static/js/runtime-main.1a4b547f.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/ericfreyer.github.io/React_Portfolio/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.ea97d1a3.chunk.js": "/ericfreyer.github.io/React_Portfolio/static/js/2.ea97d1a3.chunk.js",
+    "static/js/2.ea97d1a3.chunk.js.map": "/ericfreyer.github.io/React_Portfolio/static/js/2.ea97d1a3.chunk.js.map",
+    "index.html": "/ericfreyer.github.io/React_Portfolio/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/ericfreyer.github.io/React_Portfolio/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.93d47f43.chunk.css.map": "/ericfreyer.github.io/React_Portfolio/static/css/main.93d47f43.chunk.css.map",
+    "static/js/2.ea97d1a3.chunk.js.LICENSE.txt": "/ericfreyer.github.io/React_Portfolio/static/js/2.ea97d1a3.chunk.js.LICENSE.txt",
+    "static/media/Aljoscha.7c37a24e.jpg": "/ericfreyer.github.io/React_Portfolio/static/media/Aljoscha.7c37a24e.jpg",
+    "static/media/Audiobridge.5a6e88d5.PNG": "/ericfreyer.github.io/React_Portfolio/static/media/Audiobridge.5a6e88d5.PNG",
+    "static/media/Brendan.41847b64.jpg": "/ericfreyer.github.io/React_Portfolio/static/media/Brendan.41847b64.jpg",
+    "static/media/Changing.4062ca6b.jpg": "/ericfreyer.github.io/React_Portfolio/static/media/Changing.4062ca6b.jpg",
+    "static/media/Farmwise.6bea36a9.PNG": "/ericfreyer.github.io/React_Portfolio/static/media/Farmwise.6bea36a9.PNG",
+    "static/media/Growth.2396e3fc.png": "/ericfreyer.github.io/React_Portfolio/static/media/Growth.2396e3fc.png",
+    "static/media/IMG_3760.f4c3406d.JPG": "/ericfreyer.github.io/React_Portfolio/static/media/IMG_3760.f4c3406d.JPG",
+    "static/media/Linkedin_symbol_transparent.359edb16.png": "/ericfreyer.github.io/React_Portfolio/static/media/Linkedin_symbol_transparent.359edb16.png",
+    "static/media/Merlin.af7e3e57.jpg": "/ericfreyer.github.io/React_Portfolio/static/media/Merlin.af7e3e57.jpg",
+    "static/media/Noguchi.33eeabd3.jpg": "/ericfreyer.github.io/React_Portfolio/static/media/Noguchi.33eeabd3.jpg",
+    "static/media/Rainforest.b378cc07.png": "/ericfreyer.github.io/React_Portfolio/static/media/Rainforest.b378cc07.png",
+    "static/media/Sofa.ee2ec931.jpg": "/ericfreyer.github.io/React_Portfolio/static/media/Sofa.ee2ec931.jpg",
+    "static/media/Sound.98b3a3f5.png": "/ericfreyer.github.io/React_Portfolio/static/media/Sound.98b3a3f5.png",
+    "static/media/Storm.a9f13547.png": "/ericfreyer.github.io/React_Portfolio/static/media/Storm.a9f13547.png",
+    "static/media/Unnamed.e0d4ca4d.jpg": "/ericfreyer.github.io/React_Portfolio/static/media/Unnamed.e0d4ca4d.jpg",
+    "static/media/Weather.9752f796.PNG": "/ericfreyer.github.io/React_Portfolio/static/media/Weather.9752f796.PNG",
+    "static/media/background.a08d0d10.jpg": "/ericfreyer.github.io/React_Portfolio/static/media/background.a08d0d10.jpg",
+    "static/media/gmail.2b87e9b6.webp": "/ericfreyer.github.io/React_Portfolio/static/media/gmail.2b87e9b6.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a4b547f.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.ea97d1a3.chunk.js",
+    "static/css/main.93d47f43.chunk.css",
+    "static/js/main.f2e91925.chunk.js"
+  ]
+}
