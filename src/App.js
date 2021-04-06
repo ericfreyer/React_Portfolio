@@ -12,14 +12,17 @@ function App() {
   return (
     <div style={{ backgroundImage: `url(${background}`, backgroundRepeat: 'repeat' }}>
       <Router basename={`/${process.env.PUBLIC_URL}`}>
-        <div>
+      <Route render = {({ location }) => (
+         <Layout location = { location }>
+             <Switch location = { location }>
           <NavTabs />
 
-          <Link to="" component={Home} />
-          <Link to="/portfolio" component={Portfolio} />
-          <Link to="/contact" component={Contact} />
-
-        </div>
+          <Route exact path="" component={Home} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/contact" component={Contact} />
+</Switch>
+</Layout>
+      )} />   
       </Router>
       <Footer />
     </div>
