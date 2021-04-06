@@ -10,8 +10,9 @@ import Footer from './components/footer'
 
 function App() {
   return (
-    <div style={{ backgroundImage: `url(${background}`, backgroundRepeat: 'repeat' }}>
-      <Router basename={`/${process.env.PUBLIC_URL}`}>
+    <Router basename={`/${process.env.PUBLIC_URL}`}>
+      <div style={{ backgroundImage: `url(${background}`, backgroundRepeat: 'repeat' }}>
+      
         <div>
           <NavTabs />
 
@@ -20,9 +21,10 @@ function App() {
           <Route exact path="/contact" component={Contact} />
 
         </div>
-      </Router>
+      
       <Footer />
     </div>
+    </Router>
   );
 }
 
