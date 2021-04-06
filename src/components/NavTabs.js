@@ -1,6 +1,7 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {Link} from "react-router-dom";
 import $ from 'jquery'
 
 
