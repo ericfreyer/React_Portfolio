@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.css";
 
 ReactDOM.render(
-<HashRouter>
+
 <App />
-</HashRouter>,
+,
  document.getElementById("root"));
