@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter, Route, Link } from "react-router-dom";
+import { HashRouter, Route, } from "react-router-dom";
 import NavTabs from "./components/NavTabs";
 import Home from "./pages/Home/home";
 import Portfolio from "./pages/Portfolio/portfolio";
@@ -11,12 +11,14 @@ import Footer from './components/footer'
 function App() {
   return (
     <div style={{ backgroundImage: `url(${background}`, backgroundRepeat: 'repeat' }}>
-      <HashRouter basename='/'>
+      <HashRouter basename={`/${process.env.PUBLIC_URL}`}>
         <div>
           <NavTabs />
-          <Route exact path="/" component={Home} />
-          <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
+
+          <Route exact path="" component={Home} />
+          <Route exact path="/portfolio#" component={Portfolio} />
+          <Route exact path="/contact#" component={Contact} />
+
         </div>
       </HashRouter>
       <Footer />

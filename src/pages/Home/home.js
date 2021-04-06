@@ -1,5 +1,4 @@
 import React from "react";
-import $ from "jquery";
 import IMG_3760 from "./images/IMG_3760.JPG";
 import GitHub from "./images/GitHub-Mark.png";
 import gmail from "./images/gmail.webp";
